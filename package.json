@@ -1,7 +1,15 @@
 {
-	"dependencies": {
-		"cheerio": "latest",
-		"request": "latest",
-		"sqlite3": "latest"
-	}
+  "name": "myscraper",
+  "description": "a scraper that runs on morph.io",
+  "version": "1.0.0",
+  "engines": {
+    "node": "4.1.1"
+  },
+  "dependencies": {
+    "async": "^2.0.1",
+    "osmtogeojson": "2.2.11",
+    "replaceall": "0.1.6",
+    "request": "latest",
+    "sqlite3": "latest"
+  }
 }
